@@ -4,8 +4,8 @@ Learning react from the very basics.
 Learning by doing.
 
 Refrences:
-https://www.w3schools.com/whatis/whatis_react.asp
-https://www.w3adda.com/react-js-tutorial
+* https://www.w3schools.com/whatis/whatis_react.asp
+* https://www.w3adda.com/react-js-tutorial
 
 == Change Log ==
 
