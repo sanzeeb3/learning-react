@@ -1,3 +1,9 @@
+/**
+ *
+ * Notes and practices only.
+ * @since  1.0.0
+ */
+
 let a = 30;
 console.log(a);
 
@@ -31,3 +37,14 @@ document.getElementByID("intro"); 			// Find HTML element by ID.
 document.getElementByTagName("intro"); 		// Tag Name.
 document.getElementByClassName("intro");	// Class Name.
 document.querySelectorAll("p.intro");		// CSS Selector.
+
+// Babel is a JS compiler which translates the markup or programming languages into  JavaScript.
+// ES6
+// React uses Babel to convert JSX into javascript.
+// Script type is text/babel.
+// Javascript XML is JSX.
+// JSX is neither HTML nor JavaScript.
+ 
+const element = <h1>Hello World!</h1>	 //JSX doesnot use quote around the HTML text string.
+
+// If an attribute is wrapped in curly braces, the value is a JavaScript expression. 
