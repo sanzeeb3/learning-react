@@ -51,3 +51,12 @@ const element = <h1>Hello World!</h1>	 //JSX doesnot use quote around the HTML t
 
 // React applications are usually built around a single HTML element. E.g. in learning.html root id, often called root element or root node.
 // React Compontents are javascript functions.
+
+
+/**
+ * Setting up a ReactJS project
+ * With these steps, no need to load the js scripts and so like in learning.html. More like a chapter two.
+ */
+
+// 1. npm install -g create-react-app
+// 2. create-react-app helloworld
