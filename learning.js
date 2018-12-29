@@ -47,4 +47,7 @@ document.querySelectorAll("p.intro");		// CSS Selector.
  
 const element = <h1>Hello World!</h1>	 //JSX doesnot use quote around the HTML text string.
 
-// If an attribute is wrapped in curly braces, the value is a JavaScript expression. 
+// If an attribute is wrapped in curly braces, the value is a JavaScript expression.
+
+// React applications are usually built around a single HTML element. E.g. in learning.html root id, often called root element or root node.
+// React Compontents are javascript functions.

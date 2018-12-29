@@ -10,21 +10,52 @@
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
 <body>
-Learning react from the very basics.
+<h1>Learning react from the very basics.</h1>
 
-<div id="id01">Hello World!</div>
-<div id="learning-value"></div>
+<div id="root"><h3>Hello World!</h3></div>
+<div id="root_1">Hello World!</div>
+<div id="root_2">Hello World!</div>
+<div id="root_3">Hello World!</div>
+<div id="root_4">Hello World!</div>
+<div id="root_5">Hello World!</div>
+<!-- <div id="root_6">Hello World!</div> -->
 
 <script type="text/babel">
-    ReactDOM.render(
-    <h1>Hello React!</h1>,
-    document.getElementById('id01'));
 
+    ReactDOM.render(
+    <h3>Hello React!</h3>,
+    document.getElementById('root_1'));
+
+
+    // If an attribute is wrapped in curly braces, the value is a JavaScript expression.
     const name = 'Ram';
 
     ReactDOM.render(
-    <h1>Hello {name}</h1>,
-    document.getElementById('learning-value'));
+    <h3>Hello {name} by curly braces!</h3>,
+    document.getElementById('root_2'));
+
+
+    // React applications are usually built around a single HTML element. E.g. root id, often called root element or root node. E.g.
+	const element = <h3>Hello React element!</h3>;
+
+	ReactDOM.render(
+	element, document.getElementById('root_3'));
+
+	// React compontents are javascript functions. E.g.
+    function Welcome() {
+ 	   return <h3>Hello React Component!</h3>;
+	}
+
+	ReactDOM.render(<Welcome />, document.getElementById('root_4'));
+
+	// Use of React class to create components.
+	class Goodbye extends React.Component { 
+	    render() { 
+	    const element = <h3>Hello React Componet By Class!</h3>;
+	    return(element); }
+	}
+
+	ReactDOM.render(<Goodbye />, document.getElementById('root_5'));
 
 </script>
 
