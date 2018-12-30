@@ -18,7 +18,7 @@
 <div id="root_3">Hello World!</div>
 <div id="root_4">Hello World!</div>
 <div id="root_5">Hello World!</div>
-<!-- <div id="root_6">Hello World!</div> -->
+<div id="root_6">Hello World!</div>
 
 <script type="text/babel">
 
@@ -48,14 +48,22 @@
 
 	ReactDOM.render(<Welcome />, document.getElementById('root_4'));
 
-	// Use of React class to create components.
+	// Functional component with parameter.
+	function Hello(props) {
+	  return <h3>Hello, {props.name}!</h3>;
+	}
+
+	ReactDOM.render(<Hello name="component by parameter" />, document.getElementById('root_6'));
+
+	// Class componenet with parameter.
 	class Goodbye extends React.Component { 
 	    render() { 
-	    const element = <h3>Hello React Component By Class!</h3>;
+	    const element = <h3>Hello {this.props.name} Component By Class!</h3>;
 	    return(element); }
 	}
 
-	ReactDOM.render(<Goodbye />, document.getElementById('root_5'));
+	ReactDOM.render(<Goodbye name="react"/>, document.getElementById('root_5'));
+
 
 </script>
 

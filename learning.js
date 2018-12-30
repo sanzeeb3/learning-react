@@ -59,4 +59,4 @@ const element = <h1>Hello World!</h1>	 //JSX doesnot use quote around the HTML t
  */
 
 // 1. npm install -g create-react-app
-// 2. create-react-app helloworld
+// 2. create-react-app learning_1
