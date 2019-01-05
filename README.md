@@ -17,3 +17,7 @@ Refrences:
 
 = Day 2 - 12/29/2018 =
 * React functional and class components with parameters.
+
+= Day 3 - 05/01/2019 =
+* Recall of the earlier chapters.
+* Starting ReactJS state.

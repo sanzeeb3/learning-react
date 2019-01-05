@@ -64,6 +64,20 @@
 
 	ReactDOM.render(<Goodbye name="react"/>, document.getElementById('root_5'));
 
+	class NewlyClass extends React.Component {
+
+	   constructor(props){
+	        super(props);
+	        this.state = {
+	            msg: "W3Adda"
+	        };
+	    }
+
+	    render() {
+	        return <h2>Why always hello {this.state.msg}!</h2>;
+	    }
+	}
+
 
 </script>
 

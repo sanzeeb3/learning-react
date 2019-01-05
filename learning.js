@@ -60,3 +60,6 @@ const element = <h1>Hello World!</h1>	 //JSX doesnot use quote around the HTML t
 
 // 1. npm install -g create-react-app
 // 2. create-react-app learning_1
+// 3. npm start
+// 4. localhost:3000
+// 5. learning_1/src/app.js will run on the screen
