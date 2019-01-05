@@ -1,0 +1,15 @@
+ReactJS State:
+- By default react component has no state.
+- To define a components initail state, we must have to add a class constructor.
+- This assigns the initail state using this.state
+- A state can later be changed by using setState function.
+
+e.g. updateMsg() {
+        this.setState({
+            msg: "ReactJS"
+        });
+	}
+
+- bind the this keyword to the updateMsg() function in the constructor.
+
+e.g. this.updateMsg = this.updateMsg.bind(this);

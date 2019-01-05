@@ -1,15 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+var React= require('react');
+var ReactDOM = require('react-dom');
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello Chapter Two!</h1>
-      </div>
-    );
-  }
+class Hello extends React.Component {
+    
+    constructor(props){
+        super(props);
+        this.state = {
+            msg: "W3Adda"
+        };
+        this.updateMsg = this.updateMsg.bind(this);
+   }
+
+    updateMsg() {
+        this.setState({
+            msg: "ReactJS"
+        });
+    }    
+
+    render() {
+        return (
+           <div>
+             <h1>Hello {this.state.msg}!</h1>
+             <button onClick={this.updateMsg}>Click me!</button>
+           </div>   
+        )
+    }
 }
 
-export default App;
+
+ReactDOM.render(<Hello />, document.getElementById('hello-world-wrapper'));
