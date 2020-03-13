@@ -21,3 +21,6 @@ Refrences:
 = Day 3 - 05/01/2019 =
 * Recall of the earlier chapters.
 * Starting ReactJS state.
+
+= Day 4 - 13/03/2019 =
+* Recap to understand the basics.
